@@ -1,0 +1,439 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+}
+
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: white;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+    padding: 20px;
+
+}
+
+
+nav .logo a {
+
+    color: black;
+
+    text-decoration: none;
+
+    font-size: 25px;
+
+    font-weight: bold;
+
+}
+
+
+nav .logo span {
+
+    color: orange;
+
+    font-size: 35px;
+
+}
+
+
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+}
+
+
+nav ul li {
+
+    margin: 0 15px;
+
+}
+
+
+
+nav ul li a {
+
+    text-decoration: none;
+
+    color: black;
+
+    font-size: 17px;
+
+    transition: 0.3s;
+
+}
+
+
+
+nav ul li a:hover {
+
+    color: orange;
+
+}
+
+
+
+nav .icon i {
+
+    margin: 0 5px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+}
+
+
+
+nav .icon i:hover {
+
+    color: orange;
+
+}
+
+
+
+
+/* =========================
+   SECTION
+========================= */
+
+section {
+
+    width: 100%;
+
+    min-height: 100vh;
+
+}
+
+
+
+/* =========================
+   INGREDIENT LIST
+========================= */
+
+
+.ingredient-list {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 30px auto;
+
+    background: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    max-width: 1150px;
+
+    width: 100%;
+
+}
+
+
+
+.ingredient-list li {
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 15px 20px;
+
+    flex: 1 0 20%;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+
+label {
+
+    margin-left: 10px;
+
+    cursor: pointer;
+
+}
+
+
+
+/* =========================
+   BUTTON
+========================= */
+
+
+button {
+
+
+    display: block;
+
+    margin: 40px auto;
+
+
+    padding: 12px 25px;
+
+
+    background-color: orange;
+
+
+    color: white;
+
+
+    border: none;
+
+
+    border-radius: 8px;
+
+
+    cursor: pointer;
+
+
+    font-size: 17px;
+
+
+}
+
+
+
+button:hover {
+
+
+    background-color: orangered;
+
+
+}
+
+
+
+#validateButton {
+
+
+    position: relative;
+
+
+    bottom: auto;
+
+
+    left: auto;
+
+
+    transform: none;
+
+
+    z-index: auto;
+
+
+}
+
+
+
+/* =========================
+   RECIPE RESULT
+========================= */
+
+
+#recipeResult {
+
+
+    width: 80%;
+
+
+    margin: 50px auto;
+
+
+    display: block;
+
+
+    clear: both;
+
+
+}
+
+
+
+
+.recipe-card {
+
+
+    background: white;
+
+
+    padding: 30px;
+
+
+    border-radius: 15px;
+
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+
+
+    line-height: 1.7;
+
+
+}
+
+
+
+.recipe-card h1 {
+
+
+    color: orange;
+
+
+    text-align: center;
+
+
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.recipe-card h2 {
+
+
+    color: #333;
+
+
+    margin-top: 20px;
+
+
+}
+
+
+
+.recipe-card ul,
+
+
+.recipe-card ol {
+
+
+    margin-left: 30px;
+
+
+    margin-top: 10px;
+
+
+}
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+.site-footer {
+
+
+    background-color: white;
+
+
+    color: black;
+
+
+    text-align: center;
+
+
+    padding: 20px 0;
+
+
+    margin-top: 50px;
+
+
+    width: 100%;
+
+
+}
+
+
+
+.footer-content {
+
+
+    max-width: 1200px;
+
+
+    margin: auto;
+
+
+}
+
+
+
+.footer-content p {
+
+
+    margin: 10px;
+
+
+    font-size: 14px;
+
+
+}
+
+
+
+.footer-content a {
+
+
+    color: orange;
+
+
+    text-decoration: none;
+
+
+}
+
+
+
+.footer-content a:hover {
+
+
+    text-decoration: underline;
+
+
+}
